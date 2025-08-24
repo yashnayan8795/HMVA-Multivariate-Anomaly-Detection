@@ -238,6 +238,7 @@ $RECYCLE.BIN/
 
 # Data files (common in ML/data science projects)
 *.csv
+!TEP_Train_Test.csv
 *.xlsx
 *.xls
 *.parquet
