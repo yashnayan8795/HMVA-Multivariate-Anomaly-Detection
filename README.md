@@ -1,5 +1,8 @@
 # Honeywell Multivariate Anomaly Detection (HMVA)
 
+Author: Yash Nayan
+Project Type: Honeywell Hackathon Prototype: Multivariate Dataset Analysis
+
 A production-ready pipeline + Streamlit dashboard for **multivariate time-series anomaly detection** on Tennessee Eastman Process–style datasets.
 Learns a **baseline "normal" window**, scores every timestamp **0–100**, and explains anomalies with **`top_feature_1..7`** per row.
 
@@ -374,4 +377,3 @@ A: In the output as `top_feature_1..7`, and visible in the dashboard's top anoma
 ## License
 
 This project uses an open-source Python stack. The Tennessee Eastman Process dataset is a widely used research benchmark; ensure your usage complies with your institution/competition terms. Code in this repository is provided for educational and evaluation purposes.
-
